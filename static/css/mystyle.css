@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-container {
+  flex-basis: 20%;
+  background-color: #afb8c9;
+  align-items: center;
+}
+
+.map-container {
+  flex-basis: 80%;
+  width: 100%
+}
+
+.form-container label,
+.form-container input,
+.form-container button {
+  display: block;
+  width: 70%;
+  margin-bottom: 15px;
+  margin-left: 10px
+}
+
+button[type="submit"] {
+  font-size: 14px;
+  padding: 5px 5px;
+  width: 60px;
+  background-color: #348ceb;
+}
+
+h1 {
+  font-size: 20px;
+  color: #eb345f;
+  margin-left: 10px
+}
+
